@@ -1,0 +1,33 @@
+{
+  "name": "ReframeworkwithTestCases",
+  "description": "Robotic Enterprise Framework with Test Cases",
+  "main": "Main.xaml",
+  "dependencies": {
+    "Woolworths.GroupIT.ServiceNow.Activities": "1.0.3"
+  },
+  "webServices": [],
+  "schemaVersion": "4.0",
+  "studioVersion": "21.10.4.0",
+  "projectVersion": "1.0.0",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "isPausable": true,
+    "requiresUserInteraction": true,
+    "supportsPersistence": false,
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow"
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Process",
+    "libraryOptions": {
+      "includeOriginalXaml": false,
+      "privateWorkflows": []
+    },
+    "fileInfos": []
+  },
+  "expressionLanguage": "VisualBasic"
+}
